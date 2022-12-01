@@ -22,6 +22,24 @@
 }
 
 .header{
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .6);
   border-bottom: 1px solid #fff;
+}
+
+.main{
+  background: rgba(0, 0, 0, .4);
+  color: #fff;
+  min-height: 750px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+
+.contact-item{
+  margin: 10px 0px;
+}
+
+.contact-item a{
+  text-decoration: none;
+  color: #fff;
 }
