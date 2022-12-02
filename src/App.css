@@ -35,8 +35,14 @@
 }
 
 
-.contact-item{
+.contact-item,
+.education-item
+{
   margin: 10px 0px;
+}
+
+.education{
+  padding-left: 300px;
 }
 
 .contact-item a{

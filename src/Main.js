@@ -1,5 +1,6 @@
 import React from 'react';
 import Contacts from './Contacts';
+import Education from './Education';
 
 class Main extends React.Component{
 
@@ -10,6 +11,9 @@ class Main extends React.Component{
                     <div className="row">
                         <div className="col-md-4">
                             <Contacts />
+                        </div>
+                        <div className="col-md-8">
+                            <Education />
                         </div>
                     </div>
                 </div>
