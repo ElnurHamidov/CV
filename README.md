@@ -1,1 +1,1 @@
-# My CV created in React
+# My CV, created in React
