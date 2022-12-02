@@ -4,6 +4,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  
+}
+
 .wrapper{
   min-height: 750px;
   background: url('./images/back2.jpg') center/ cover no-repeat scroll;
@@ -24,6 +28,7 @@
 .header{
   background: rgba(0, 0, 0, .6);
   border-bottom: 1px solid #fff;
+  padding-left: 100px;
 }
 
 .main{
@@ -31,8 +36,9 @@
   color: #fff;
   min-height: 750px;
   padding-top: 40px;
-  padding-left: 10px;
+  padding-left: 100px;
 }
+
 
 
 .contact-item,
@@ -40,7 +46,8 @@
 .skills-item,
 .profile-item,
 .languages-item,
-.location-item
+.location-item,
+.experience-item
 {
   margin: 10px 0px;
 }
@@ -48,7 +55,8 @@
 .skills,
 .profile,
 .languages,
-.location
+.location,
+.experience
 {
   margin-top: 100px;
 }

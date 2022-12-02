@@ -5,6 +5,7 @@ import Skills from './Skills';
 import Profile from './Profile';
 import Languages from './Languages';
 import Location from './Location';
+import Experience from './Experience';
 
 class Main extends React.Component{
 
@@ -18,10 +19,11 @@ class Main extends React.Component{
                              <Skills />
                             <Location />
                         </div>
-                        <div className="col-md-5" style={{marginLeft: '250px'}}>
+                        <div className="col-md-5" style={{marginLeft: '150px'}}>
                             <Education />
                             <Profile />
                             <Languages />
+                            <Experience />
                         </div>
                     </div>
                 </div>
