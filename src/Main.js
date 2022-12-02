@@ -2,6 +2,7 @@ import React from 'react';
 import Contacts from './Contacts';
 import Education from './Education';
 import Skills from './Skills';
+import Profile from './Profile';
 
 class Main extends React.Component{
 
@@ -16,11 +17,7 @@ class Main extends React.Component{
                         </div>
                         <div className="col-md-5" style={{marginLeft: '250px'}}>
                             <Education />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-4">
-                            
+                            <Profile />
                         </div>
                     </div>
                 </div>

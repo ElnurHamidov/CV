@@ -37,12 +37,15 @@
 
 .contact-item,
 .education-item,
-.skills-item
+.skills-item,
+.profile-item
 {
   margin: 10px 0px;
 }
 
-.skills{
+.skills,
+.profile
+{
   margin-top: 100px;
 }
 
