@@ -3,7 +3,7 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 , DiReact, DiBootstrap , DiSass} from "react-icons/di";
 import { TbBrandJavascript } from "react-icons/tb";
 import { AiFillGithub } from "react-icons/ai";
-import { GiBrainDump , GiSandsOfTime } from "react-icons/gi";
+import { GiBrainDump  } from "react-icons/gi";
 import { VscSymbolInterface } from "react-icons/vsc";
 
 class Skills extends React.Component{

@@ -39,14 +39,16 @@
 .education-item,
 .skills-item,
 .profile-item,
-.languages-item
+.languages-item,
+.location-item
 {
   margin: 10px 0px;
 }
 
 .skills,
 .profile,
-.languages
+.languages,
+.location
 {
   margin-top: 100px;
 }
