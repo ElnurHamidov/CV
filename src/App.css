@@ -4,9 +4,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body{
-  
-}
 
 .wrapper{
   min-height: 750px;
@@ -28,7 +25,7 @@ body{
 .header{
   background: rgba(0, 0, 0, .6);
   border-bottom: 1px solid #fff;
-  padding-left: 100px;
+  padding-left: 10%;
 }
 
 .main{
@@ -36,10 +33,18 @@ body{
   color: #fff;
   min-height: 750px;
   padding-top: 40px;
-  padding-left: 100px;
+  /* padding-left: 10%; */
 }
 
+.nav img{
+  width: "200px";
+  height: "200px";
+  border-radius: '50%';
+}
 
+.part2{
+  margin-left: 10%;
+}
 
 .contact-item,
 .education-item,
@@ -68,4 +73,104 @@ body{
 .contact-item a{
   text-decoration: none;
   color: #fff;
+}
+
+
+
+@media (max-width: 757px){
+  .education div:last-child{
+    margin-top: 10px;
+  }
+
+.skills,
+.profile,
+.languages,
+.location,
+.experience
+{
+  margin-top: 100px;
+}
+
+.header{
+  padding-left: 0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.part2{
+  margin-left:0;
+}
+
+.nav .h3{
+  font-size: 16px;
+}
+
+.nav .h2{
+  font-size: 18px;
+}
+
+.education{
+  margin-top: 10%;
+}
+
+}
+
+@media (max-width: 1023px){
+  .nav img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 1024px){
+  .nav img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 450px){
+  .nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+  .nav .h3{
+    font-size: 14px;
+  }
+  
+  .nav .h2{
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 350px){
+  .nav img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+
+  .nav .h3{
+    font-size: 14px;
+  }
+  
+  .nav .h2{
+    font-size: 16px;
+  }
+
 }

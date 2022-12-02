@@ -19,7 +19,7 @@ class Main extends React.Component{
                              <Skills />
                             <Location />
                         </div>
-                        <div className="col-md-5" style={{marginLeft: '150px'}}>
+                        <div className="col-md-5  part2">
                             <Education />
                             <Profile />
                             <Languages />

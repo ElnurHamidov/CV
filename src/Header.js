@@ -11,7 +11,7 @@ class Header extends React.Component{
             <div className="header">
                 <div className="container">
                     <nav className="nav">
-                    <img src={logo} style={{width: "200px" , height: "200px", borderRadius: '50%'}} className="d-inline-block align-left" alt="my photo" />
+                    <img src={logo} className="d-inline-block align-left" alt="my photo" />
                         <div>
                             <div className="h2">Elnur Hamidov</div>
                             <div className="h3">Front end developer</div>
