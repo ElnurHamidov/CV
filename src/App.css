@@ -36,13 +36,18 @@
 
 
 .contact-item,
-.education-item
+.education-item,
+.skills-item
 {
   margin: 10px 0px;
 }
 
-.education{
-  padding-left: 300px;
+.skills{
+  margin-top: 100px;
+}
+
+.education div:last-child{
+  margin-top: 30px;
 }
 
 .contact-item a{
