@@ -38,13 +38,15 @@
 .contact-item,
 .education-item,
 .skills-item,
-.profile-item
+.profile-item,
+.languages-item
 {
   margin: 10px 0px;
 }
 
 .skills,
-.profile
+.profile,
+.languages
 {
   margin-top: 100px;
 }
