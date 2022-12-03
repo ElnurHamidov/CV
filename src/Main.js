@@ -15,15 +15,15 @@ class Main extends React.Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
-                            <Contacts />
-                             <Skills />
-                            <Location />
+                             <Skills />      
+                            <Experience />                                                 
+                            <Languages />  
                         </div>
                         <div className="col-md-5  part2">
                             <Education />
-                            <Profile />
-                            <Languages />
-                            <Experience />
+                            <Profile /> 
+                            <Location />      
+                            <Contacts />
                         </div>
                     </div>
                 </div>

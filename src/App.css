@@ -57,14 +57,16 @@
   margin: 10px 0px;
 }
 
-.skills,
 .profile,
 .languages,
 .location,
-.experience
+.experience,
+.contacts
 {
   margin-top: 100px;
 }
+
+
 
 .education div:last-child{
   margin-top: 30px;
@@ -76,6 +78,22 @@
 }
 
 
+@media (min-width: 1024px){
+  .nav img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+
+
+@media (max-width: 1023px){
+  .nav img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
 
 @media (max-width: 757px){
   .education div:last-child{
@@ -88,7 +106,7 @@
 .location,
 .experience
 {
-  margin-top: 100px;
+  margin-top: 20%;
 }
 
 .header{
@@ -123,23 +141,11 @@
   margin-top: 10%;
 }
 
+
 }
 
-@media (max-width: 1023px){
-  .nav img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-  }
-}
 
-@media (min-width: 1024px){
-  .nav img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-}
+
 
 @media (max-width: 450px){
   .nav img{
@@ -154,6 +160,14 @@
   
   .nav .h2{
     font-size: 16px;
+  }
+
+  .skills{
+    margin-top: 5%;
+  }
+
+  .education{
+    margin-top: 20%;
   }
 
 }
@@ -171,6 +185,14 @@
   
   .nav .h2{
     font-size: 16px;
+  }
+
+  .skills{
+    margin-top: 5%;
+  }
+
+  .education{
+    margin-top: 20%;
   }
 
 }
