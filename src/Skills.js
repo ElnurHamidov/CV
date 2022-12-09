@@ -18,7 +18,7 @@ class Skills extends React.Component{
                 <div className="skills-item"><p><DiBootstrap /> Bootstrap</p></div>
                 <div className="skills-item"><p><DiSass /> SASS</p></div>
                 <div className="skills-item"><p><TbBrandJavascript /> JavaScript</p></div>
-                <div className="skills-item"><p><DiReact /> React(Hooks, refs, Component lifecycle, API,React Router DOM,User system, Formik)</p></div>
+                <div className="skills-item"><p><DiReact /> React(Hooks, refs, Component lifecycle, API,React Router DOM,User system, Formik, Redux)</p></div>
                 <div className="skills-item"><p><AiFillGithub /> Git and GitHub</p></div>
                 <div className="skills-item"><p><GiBrainDump /> Critical thinking</p></div>
                 <div className="skills-item"><p><VscSymbolInterface /> Client Interfacing</p></div>
